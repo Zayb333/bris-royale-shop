@@ -44,7 +44,7 @@ body{background:#000;color:#fff;font-family:var(--body);cursor:none;overflow-x:h
 
 /* --- Navigation --- */
 nav{position:fixed;top:0;left:0;right:0;z-index:500;display:flex;align-items:center;justify-content:space-between;padding:1.4rem 3rem;background:linear-gradient(to bottom,rgba(0,0,0,.95),transparent)}
-.nav-logo-img{height:36px;width:auto;display:block}
+.nav-logo-img{height:36px;width:auto;display:block;filter:brightness(0)invert(1);}
 .nav-links{display:flex;gap:2.5rem;align-items:center}
 .nav-links a{font-family:var(--brand);font-size:.85rem;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.55);text-decoration:none;transition:color .3s;cursor:none}
 .nav-links a:hover{color:var(--gold)}
